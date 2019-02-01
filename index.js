@@ -13,7 +13,12 @@ function logWisper(str){
   console.log(str.toLowerCase())
 }
 function sayHiToGrandma(str){
-  if(str.isLower)
-  return "I can't hear you!".toLowerCase()
+  if(str === str.toLowerCase()){
+    return "I can't hear you!".toLowerCase()  
+  } else if(str === str.toUpperCase){
+    return "YES UNDEED!"
+  }
+  if(str === "I love you, Grandma."){
+    return "I love you, too."
+  }
 }
-function sayHiToGrand(str)
