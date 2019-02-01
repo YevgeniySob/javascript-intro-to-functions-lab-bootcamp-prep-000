@@ -1,4 +1,6 @@
-function wisper
+function whisper(str){
+  return str.toLowerCase()
+}
 
 function shout(str){
   return str.toUpperCase()
